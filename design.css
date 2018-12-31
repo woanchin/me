@@ -1,6 +1,6 @@
 .bodyClass {
     color:#000;
-    background-color:#E8E4F5;
+    background-color:#42f483;
     margin-left:auto;
     margin-right:auto;
     max-width:980px
@@ -32,7 +32,7 @@
     padding:8px 16px;
     width:100%;
     border:none;
-    display:none;
+    display:block;
     outline:0;
     text-align:left;
     float:none;
@@ -74,13 +74,17 @@
 }
 
 @media (min-width:993px) {
-    .nav {
+    .navClass {
         display:block
+    }
+
+    .navBarItem {
+        display:none  
     }
 }
 
 @media (max-width:992px) {
-    .nav {
+    .navClass {
         display:none
     }
 }
